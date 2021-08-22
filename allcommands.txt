@@ -1,0 +1,112 @@
+
+DSFM@DESKTOP-4Q5PH99 MINGW64 ~/OneDrive/Desktop/atonis-website
+$ git init
+Initialized empty Git repository in C:/Users/DSFM/OneDrive/Desktop/atonis-website/.git/
+
+DSFM@DESKTOP-4Q5PH99 MINGW64 ~/OneDrive/Desktop/atonis-website (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/css/plugins/font-awesome/css/all.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/plugins/font-awesome/webfonts/fa-brands-400.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/plugins/font-awesome/webfonts/fa-regular-400.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/plugins/font-awesome/webfonts/fa-solid-900.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/style.css.map.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/js/jquery-1.11.3.min.js.
+The file will have its original line endings in your working directory
+
+DSFM@DESKTOP-4Q5PH99 MINGW64 ~/OneDrive/Desktop/atonis-website (master)
+$ git remote add origin https://github.com/Mktonmoy403/Atonis-website.git
+
+DSFM@DESKTOP-4Q5PH99 MINGW64 ~/OneDrive/Desktop/atonis-website (master)
+$ git commit -am "backup"
+[master (root-commit) 138da48] backup
+ 69 files changed, 12577 insertions(+)
+ create mode 100644 assets/css/base/_all.scss
+ create mode 100644 assets/css/base/_grid.scss
+ create mode 100644 assets/css/base/_reset.scss
+ create mode 100644 assets/css/base/_typography.scss
+ create mode 100644 assets/css/base/_variable.scss
+ create mode 100644 assets/css/layouts/_about.scss
+ create mode 100644 assets/css/layouts/_all.scss
+ create mode 100644 assets/css/layouts/_banner.scss
+ create mode 100644 assets/css/layouts/_blog.scss
+ create mode 100644 assets/css/layouts/_contact.scss
+ create mode 100644 assets/css/layouts/_counter.scss
+ create mode 100644 assets/css/layouts/_cta.scss
+ create mode 100644 assets/css/layouts/_header.scss
+ create mode 100644 assets/css/layouts/_price.scss
+ create mode 100644 assets/css/layouts/_projects.scss
+ create mode 100644 assets/css/layouts/_section-title.scss
+ create mode 100644 assets/css/layouts/_services.scss
+ create mode 100644 assets/css/layouts/_team.scss
+ create mode 100644 assets/css/layouts/_testimonials.scss
+ create mode 100644 assets/css/layouts/_timeline.scss
+ create mode 100644 assets/css/magnific-popup/magnific-popup.css
+ create mode 100644 assets/css/plugins/font-awesome/css/all.min.css
+ create mode 100644 assets/css/plugins/font-awesome/slick-slider/slick.css
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-brands-400.eot
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-brands-400.svg
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-brands-400.ttf
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-brands-400.woff
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-brands-400.woff2
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-regular-400.eot
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-regular-400.svg
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-regular-400.ttf
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-regular-400.woff
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-regular-400.woff2
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-solid-900.eot
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-solid-900.svg
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-solid-900.ttf
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-solid-900.woff
+ create mode 100644 assets/css/plugins/font-awesome/webfonts/fa-solid-900.woff2
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/css/style.css.map
+ create mode 100644 assets/css/style.scss
+ create mode 100644 assets/css/utils/_all.scss
+ create mode 100644 assets/css/utils/_functions.scss
+ create mode 100644 assets/css/utils/_mixin.scss
+ create mode 100644 assets/img/about/about-me.png
+ create mode 100644 assets/img/banner/banner-back.jpg
+ create mode 100644 assets/img/blog/blog1.jpg
+ create mode 100644 assets/img/blog/blog2.jpg
+ create mode 100644 assets/img/blog/blog3.jpg
+ create mode 100644 assets/img/cta/cta-back.jpg
+ create mode 100644 assets/img/projects/1.jpg
+ create mode 100644 assets/img/projects/2.jpg
+ create mode 100644 assets/img/projects/3.jpg
+ create mode 100644 assets/img/projects/4.jpg
+ create mode 100644 assets/img/projects/5.jpg
+ create mode 100644 assets/img/projects/6.jpg
+ create mode 100644 assets/img/team/team1.jpg
+ create mode 100644 assets/img/team/team2.jpg
+ create mode 100644 assets/img/team/team3.jpg
+ create mode 100644 assets/img/testimonials/01.png
+ create mode 100644 assets/img/testimonials/02.png
+ create mode 100644 assets/img/testimonials/03.png
+ create mode 100644 assets/js/counterup.min.js
+ create mode 100644 assets/js/jquery-1.11.3.min.js
+ create mode 100644 assets/js/magnific-popup.min.js
+ create mode 100644 assets/js/main.js
+ create mode 100644 assets/js/slick.min.js
+ create mode 100644 assets/js/waypoint.min.js
+ create mode 100644 index.html
+
+DSFM@DESKTOP-4Q5PH99 MINGW64 ~/OneDrive/Desktop/atonis-website (master)
+$ git push origin master
+Enumerating objects: 90, done.
+Counting objects: 100% (90/90), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (81/81), done.
+Writing objects: 100% (90/90), 4.72 MiB | 925.00 KiB/s, done.
+Total 90 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Mktonmoy403/Atonis-website.git
+ * [new branch]      master -> master
+
+DSFM@DESKTOP-4Q5PH99 MINGW64 ~/OneDrive/Desktop/atonis-website (master)
+$
