@@ -1,0 +1,109 @@
+@import 'variable';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+.mx-auto{
+    margin: 0px auto;
+}
+
+// background image css
+
+.bg{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    &:before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: $black;
+        opacity: .75;
+        z-index: -1 ;
+    }
+}
+//padding and margin 
+@for $i from 1 to 11 {
+    .pt-#{$i * 10}{
+        padding-top: $i * 10px;
+    }
+    .pb-#{$i * 10}{
+        padding-bottom: $i * 10px;
+    }.mt-#{$i * 10}{
+        margin-top: $i * 10px;
+    }.mb-#{$i * 10}{
+        margin-bottom: $i * 10px;
+    }
+}
+
+.btn {
+    display: inline-block;
+    color:  $btn_text_color;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 30px;
+    border-radius: 3px;
+    &.btn-primary{
+        background: $btn_bg_color;
+        padding: 10px 26px;
+        &:hover{
+            background-color: $btn_text_hover;
+        }
+    }
+    &.btn-border{
+        border: 2px solid $btn_bg_color;
+        padding: 8px 26px;
+        &:hover{
+            background-color: $btn_text_hover;
+            border-color: $btn_text_hover;
+        }
+    }
+
+}
+// text align 
+$align: left, center, right, justify;
+@each $i in $align{
+    .text-#{$i}{
+        text-align: $i;
+    }
+}
+// Flex box
+$flex: flex, inline-flex;
+@each $i in $flex{
+    .d-#{$i}{
+        display: $i;
+    }
+}
+
+// Justify content 
+$justify: start, center, flex-end, evenly, space-between, space-around;
+@each $i in $justify{
+    .justify-content-#{$i}{
+        justify-content: $i;
+    }
+}
+// Justify content 
+$align-items: start, center, end, stretch, baseline;
+@each $i in $align-items{
+    .align-items-#{$i}{
+        align-items: $i;
+    }
+}
